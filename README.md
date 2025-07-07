@@ -1,4 +1,4 @@
-# Semantic Kernel Exercises
+# Agents with Actions with Semantic Kernel
 
 A collection of practical exercises demonstrating Microsoft Semantic Kernel capabilities with OpenAI integration. These exercises showcase plugin development, API integration, and the combination of semantic and native functions.
 
