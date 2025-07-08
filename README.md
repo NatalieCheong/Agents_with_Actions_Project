@@ -1,218 +1,74 @@
-# Agents with Actions with Semantic Kernel
+# AI Agents in Action - Learning Project
 
-A collection of practical exercises demonstrating Microsoft Semantic Kernel capabilities with OpenAI integration. These exercises showcase plugin development, API integration, and the combination of semantic and native functions.
+[![O'Reilly](https://img.shields.io/badge/O'Reilly-AI%20Agents%20in%20Action-red?style=flat-square&logo=oreilly)](https://www.oreilly.com/)
+[![Author](https://img.shields.io/badge/Author-Micheal%20Lanham-blue?style=flat-square)](https://www.oreilly.com/)
+[![Manning](https://img.shields.io/badge/Publisher-Manning%20Publications-orange?style=flat-square)](https://www.manning.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-## 🚀 Project Overview
+This repository contains my practical implementations and learning exercises from the book **"AI Agents in Action"** by Micheal Lanham, published by Manning Publications and available on the O'Reilly Learning Platform.
 
-This repository contains 5 comprehensive exercises that demonstrate different aspects of Semantic Kernel development:
+## 📚 About This Learning Project
 
-1. **Temperature Conversion Plugin** - Basic plugin creation with native functions
-2. **Weather Information Plugin** - Real-time API integration with error handling
-3. **Creative Semantic Functions** - AI-powered creative writing assistance
-4. **Enhanced Nutrition & Meal Planning** - Combining semantic and native functions
-5. **News API Wrapper** - Professional API wrapping with comprehensive functionality
+This repository represents my hands-on journey through the concepts and techniques presented in "AI Agents in Action". The book provides comprehensive guidance on building intelligent agents that can interact with real-world systems, make autonomous decisions, and perform meaningful actions.
 
-## 🛠️ Technologies Used
+**Book Details:**
+- **Title**: AI Agents in Action
+- **Author**: Micheal Lanham
+- **Publisher**: Manning Publications
+- **Available on**: O'Reilly Learning Platform
+- **Level**: Intermediate to Advanced
+- **Duration**: 9h 2m
+- **Publication**: February 2025
+- **Pages**: 344
 
-- **Microsoft Semantic Kernel** - AI orchestration framework
-- **OpenAI GPT-4** - Large language model for AI capabilities
-- **Python 3.11+** - Programming language
-- **External APIs**:
-  - OpenWeatherMap API (Weather data)
-  - NewsAPI.org (News articles)
-  - USDA FoodData Central API (Nutrition information)
+All exercises and projects in this repository are derived from the book's practical examples and learning materials, adapted and implemented as part of my learning process.
 
-## 📋 Prerequisites
+## 🎯 Learning Objectives
 
-- Python 3.11 or higher
-- OpenAI API key
-- Additional API keys for full functionality (see Setup section)
+Through this book and my practical implementations, I've explored:
 
-## 🔧 Installation
+- **Agent Architecture**: Understanding how to design and build intelligent agents
+- **Autonomous Decision Making**: Creating agents that can operate independently
+- **Action-Oriented Systems**: Building agents that perform real-world tasks
+- **Integration Patterns**: Connecting agents to external systems and APIs
+- **Multi-Agent Coordination**: Managing systems with multiple interacting agents
+- **Real-World Applications**: Applying AI agent concepts to practical scenarios
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/semantic-kernel-exercises.git
-   cd semantic-kernel-project
-   ```
+## 🎓 Learning Outcomes
 
-2. **Install dependencies**:
-   ```bash
-   pip install semantic-kernel python-dotenv requests
-   ```
+Through completing the book's exercises and implementing these projects, I've gained:
 
-3. **Set up environment variables**:
-   Create a `.env` file in the project root:
-   ```bash
-   OPENAI_API_KEY=your_openai_api_key_here
-   WEATHER_API_KEY=your_openweather_api_key  
-   NEWS_API_KEY=your_newsapi_key             
-   USDA_API_KEY=your_usda_api_key           
-   ```
+- **Theoretical Foundation** in AI agent architecture and design principles
+- **Practical Experience** implementing agent-based solutions
+- **Integration Skills** for connecting agents to real-world services
+- **Problem-Solving Approaches** specific to agent development challenges
+- **Design Patterns** for scalable and maintainable agent systems
+- **Best Practices** for building production-ready AI agents
 
-## 🎯 Exercise Descriptions
+## 🌟 Book Rating
 
-### Exercise 1: Temperature Conversion Plugin
-**File**: `temperature_conversion.py`
+⭐⭐⭐⭐⭐ **Highly Recommended**
 
-A basic plugin demonstrating fundamental Semantic Kernel concepts with temperature conversion between Celsius and Fahrenheit.
+"AI Agents in Action" by Micheal Lanham provides excellent theoretical foundation combined with practical, hands-on examples. The book strikes a perfect balance between conceptual understanding and real-world implementation, making it an invaluable resource for developers interested in AI agent development.
 
-**Features**:
-- Convert Celsius to Fahrenheit
-- Convert Fahrenheit to Celsius
-- Temperature scale information
-- Interactive chat interface
+## 📖 Additional Resources
 
-**Usage**:
-```bash
-python temperature_conversion.py
-```
+- **O'Reilly Learning Platform**: [AI Agents in Action](https://www.oreilly.com/)
+- **Manning Publications**: [Publisher's Page](https://www.manning.com/)
+- **Author**: Micheal Lanham - Expert in AI and agent-based systems
 
-**Example commands**:
-- "25 celsius to fahrenheit"
-- "77 fahrenheit to celsius"
-- "temperature info"
+## 🙏 Acknowledgments
 
-### Exercise 2: Weather Information Plugin
-**File**: `weather_plugin.py`
-
-Real-time weather information integration using OpenWeatherMap API.
-
-**Features**:
-- Current weather conditions
-- 5-day weather forecast
-- Multiple city support
-- Error handling and fallbacks
-
-**Setup**: Get free API key from [OpenWeatherMap](https://openweathermap.org/api)
-
-**Usage**:
-```bash
-python weather_plugin.py
-```
-
-**Example commands**:
-- "What's the weather in London?"
-- "Temperature in New York"
-- "Forecast for Tokyo"
-
-### Exercise 3: Creative Semantic Functions
-**File**: `creative_semantic.py`
-
-AI-powered creative writing assistant for poems and children's stories.
-
-**Features**:
-- Generate custom poems (various styles)
-- Create children's stories
-- Creative writing assistance
-- Customizable themes and characters
-
-**Usage**:
-```bash
-python creative_semantic.py
-```
-
-**Example commands**:
-- "Write a poem about the ocean"
-- "Create a story about a brave mouse"
-- "Write a haiku about spring"
-
-### Exercise 4: Enhanced Semantic Functions with Native Functions
-**File**: `enhanced_semantic_native.py`
-
-Advanced integration combining AI meal planning with real nutritional data.
-
-**Features**:
-- AI-generated meal plans
-- Real nutritional information lookup
-- Calorie calculations
-- Dietary preference support
-- USDA database integration
-
-**Usage**:
-```bash
-python enhanced_semantic_native.py
-```
-
-**Example commands**:
-- "Create a meal plan for weight loss"
-- "What's the nutrition in salmon?"
-- "Calculate calories for chicken, rice, broccoli"
-
-### Exercise 5: News API Wrapper
-**File**: `news_api_wrapper.py`
-
-Professional news service integration with comprehensive functionality.
-
-**Features**:
-- Latest headlines by country
-- Topic-based news search
-- Source-specific news
-- Multiple news sources
-- Formatted news presentation
-
-**Setup**: Get free API key from [NewsAPI.org](https://newsapi.org/)
-
-**Usage**:
-```bash
-python news_api_wrapper.py
-```
-
-**Example commands**:
-- "What's the latest news?"
-- "News about artificial intelligence"
-- "Technology news sources"
-
-## 🔑 API Keys Setup
-
-### Required:
-- **OpenAI API Key**: Get from [OpenAI Platform](https://platform.openai.com/)
-
-### Optional (for enhanced functionality):
-- **Weather API**: Free at [OpenWeatherMap](https://openweathermap.org/api)
-- **News API**: Free at [NewsAPI.org](https://newsapi.org/)
-- **USDA API**: Free at [FoodData Central](https://fdc.nal.usda.gov/api-guide.html)
-
-## 🏃‍♂️ Quick Start
-
-1. Set up your OpenAI API key in `.env`
-2. Run any exercise file:
-   ```bash
-   python temperature_conversion.py
-   ```
-3. Follow the interactive prompts
-4. Type 'exit' to quit any exercise
-
-## 📚 Learning Objectives
-
-Each exercise demonstrates key Semantic Kernel concepts:
-
-- **Plugin Architecture**: Creating reusable, modular components
-- **Function Decorators**: Using `@kernel_function` for AI integration
-- **API Integration**: Connecting external services seamlessly
-- **Error Handling**: Robust error management and fallbacks
-- **Chat Interfaces**: Building conversational AI applications
-- **Semantic Functions**: Leveraging AI for complex reasoning
-- **Native Functions**: Combining traditional programming with AI
+- **Micheal Lanham** - Author of "AI Agents in Action" and expert guidance
+- **Manning Publications** - Publisher providing excellent technical content
+- **O'Reilly Learning Platform** - Outstanding learning experience and access
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Microsoft Semantic Kernel team for the excellent framework
-- OpenAI for providing powerful language models
-- API providers: OpenWeatherMap, NewsAPI.org, and USDA FoodData Central
-
-## 📞 Support
-
-If you encounter any issues:
-1. Check that all API keys are properly configured
-2. Ensure you have the latest dependencies installed
-3. Review the error messages for specific guidance
-4. Open an issue in this repository
-
 ---
 
-**Built with ❤️ using Microsoft Semantic Kernel and OpenAI**
+**Built with ❤️ through O'Reilly Learning - AI Agents in Action Course**
+
+*This repository represents my learning journey and practical implementation of concepts from Micheal Lanham's "AI Agents in Action" course on the O'Reilly platform.*
