@@ -69,6 +69,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ through O'Reilly Learning - AI Agents in Action Course**
+**Built with ❤️ through O'Reilly Learning - AI Agents in Action**
 
-*This repository represents my learning journey and practical implementation of concepts from Micheal Lanham's "AI Agents in Action" course on the O'Reilly platform.*
+*This repository represents my learning journey and practical implementation of concepts from Micheal Lanham's "AI Agents in Action" on the O'Reilly platform.*
