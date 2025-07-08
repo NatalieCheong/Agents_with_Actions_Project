@@ -5,7 +5,7 @@
 [![Manning](https://img.shields.io/badge/Publisher-Manning%20Publications-orange?style=flat-square)](https://www.manning.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-This repository contains my practical implementations and learning exercises from the book **"AI Agents in Action"** by Micheal Lanham, published by Manning Publications and available on the O'Reilly Learning Platform.
+This repository contains my practical implementations and learning exercises from the book **"AI Agents in Action"** by Micheal Lanham, published by Manning Publications and available on the O'Reilly Platform.
 
 ## 📚 About This Learning Project
 
