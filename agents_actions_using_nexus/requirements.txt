@@ -1,1 +1,5 @@
-
+streamlit
+streamlit-js-eval
+requests
+python-dotenv
+openai
